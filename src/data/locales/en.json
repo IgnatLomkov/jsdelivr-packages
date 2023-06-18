@@ -1,0 +1,51 @@
+{
+  "Layout": {
+    "Header": {
+      "logoAlt": "Logo",
+      "search": "jsDelivr package name"
+    },
+    "Footer": {
+      "name": "IGNAT (ALEXEYEVICH) LOMKOV",
+      "photoAlt": "My Photo"
+    }
+  },
+  "PackagesTable": {
+    "header": {
+      "nameWithVersion": "Name (version)",
+      "description": "Description",
+      "publishDate": "Publish date"
+    },
+    "PackagesTableRow": {
+      "nameWithVersion": "{0} ({1})",
+      "PackageDialog": {
+        "stats": {
+          "error": "Oops... it is failed to load data. Try again later.",
+          "hits": "Hits today is {0} (yesterday was {1}).",
+          "bandwidth": "Bandwidth today is {0} bytes (yesterday was {1} bytes)."
+        },
+        "fullInfo": {
+          "email": {
+            "prefix": "(",
+            "postfix": ")"
+          },
+          "postfix": " published {0} • {1}."
+        },
+        "maintainers": "Maintainers:",
+        "links": {
+          "title": "Links:",
+          "typeToTextMap": {
+            "npm": "NPM",
+            "homepage": "Home",
+            "repository": "Repository",
+            "bugs": "Bugs"
+          }
+        }
+      }
+    },
+    "text": {
+      "error": "Oops... it is failed to load data. Try to type jsDelivr package name again",
+      "notFound": "Not Found",
+      "instuction": "Type jsDelivr package name to search"
+    }
+  }
+}

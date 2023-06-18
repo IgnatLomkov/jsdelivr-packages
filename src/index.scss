@@ -1,0 +1,8 @@
+//NOTE: I believe that vuetify must have VLink component, but not (I should open a feature request just later)
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
